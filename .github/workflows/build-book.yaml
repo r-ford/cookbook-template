@@ -72,5 +72,5 @@ jobs:
       - name: Upload zipped book artifact
         uses: actions/upload-artifact@v3
         with:
-          name: book-zip-${{github.event.number}}
+          name: book-zip-${{ github.event.number }}
           path: ./book.zip
